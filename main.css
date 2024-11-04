@@ -17,7 +17,7 @@ main {
 header {
   /* background-color: blue; */
   display: flex;
-  border-bottom: 4px solid yellow;
+  border-bottom: 4px solid grey;
 }
 
 nav {
