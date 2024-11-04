@@ -84,6 +84,7 @@ form {
   #name {
     height: 42px;
     width: 500px;
+    border: 1px solid #e0e0e0;
   }
 }
 
@@ -97,6 +98,28 @@ form {
     border: 1px solid #e0e0e0;
   }
 }
+
+.message {
+  display: flex;
+  flex-direction: column;
+
+  #message {
+    height: 42px;
+    width: 500px;
+    border: 1px solid #e0e0e0;
+  }
+}
+
+.button {
+  padding: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 footer {
   background-color: orange;
   text-align: center;
