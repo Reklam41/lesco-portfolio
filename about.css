@@ -70,6 +70,7 @@ nav a:hover {
   text-align: center;
   color: #e0e0e0;
   font-size: 16px;
+  margin-bottom: 50px;
 }
 
 form {
@@ -84,40 +85,25 @@ form label {
   color: #e0e0e0;
 }
 
-.form-name {
-  display: flex;
-  flex-direction: column;
-
-  #name {
-    height: 42px;
-    width: 500px;
-    border: 1px solid #e0e0e0;
-    margin-bottom: 15px;
-  }
+form input {
+  height: 42px;
+  width: 500px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 15px;
 }
 
-.email {
-  display: flex;
-  flex-direction: column;
-
-  #email {
-    height: 42px;
-    width: 500px;
-    border: 1px solid #e0e0e0;
-    margin-bottom: 15px;
-  }
-}
-
+.form-name,
+.email,
 .message {
   display: flex;
   flex-direction: column;
+}
 
-  #message {
-    height: 150px;
-    width: 500px;
-    border: 1px solid #e0e0e0;
-    margin-bottom: 15px;
-  }
+#message {
+  height: 150px;
+  width: 500px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 15px;
 }
 
 button {
