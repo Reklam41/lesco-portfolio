@@ -16,6 +16,13 @@ main {
 
 header {
   background-color: red;
+  display: flex;
+}
+.nav-links {
+}
+
+.logo {
+  flex-grow: 1;
 }
 
 section {
