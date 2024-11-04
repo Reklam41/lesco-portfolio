@@ -17,12 +17,24 @@ main {
 header {
   background-color: red;
   display: flex;
+  border-bottom: 4px solid yellow;
 }
-.nav-links {
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
   flex-grow: 1;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section {
