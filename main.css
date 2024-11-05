@@ -104,6 +104,7 @@ nav a:hover {
 .info .design img {
   background-size: cover;
   height: 200px;
+  background-image: url("design/Inyoni\ letter.png");
 }
 
 .paintings {
