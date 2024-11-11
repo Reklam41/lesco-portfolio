@@ -70,7 +70,7 @@ nav a:hover {
   text-align: center;
 }
 
-/*.info {
+.info {
   background-color: blueviolet;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -88,30 +88,15 @@ a.photography {
   grid-template-columns: 2fr 1fr;
 }
 
-   .pm {
-  background-color: green;
-  height: 200px;
-  background-color: #f0f0f0;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-
-  .project-management {
-    background-image: url(project-management/6-12.jpg);
-    display: grid;
-    place-items: center;
-    font-size: 2rem;
-    text-decoration: none;
-    background-size: cover;
-  }
-   .pm-side {
-    background-color: #f0f0f0;
-  }
+.photography div.pm {
+  background-image: url("project-management/6-12.jpg");
+  background-size: cover;
 }
 
-.photography-block:hover {
+.photography:hover {
   background-color: black;
 
-  div.project-management {
+  div.pm {
     opacity: 0.5;
   }
 
@@ -120,19 +105,6 @@ a.photography {
     color: white;
   }
 }
-
-.pm a.photography {
-    background-image: url(project-management/6-12.jpg);
-    display: grid;
-    place-items: center;
-    color: white;
-    font-size: 2rem;
-    text-decoration: none;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-  }
 
 .foto {
   background-color: yellow;
@@ -164,9 +136,6 @@ a.photography {
   background-color: pink;
   height: 200px;
 }
-
-
-*/
 
 footer {
   background-color: orange;
