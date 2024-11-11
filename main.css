@@ -63,11 +63,29 @@ nav a:hover {
 }
 
 .intro {
+  color: #191919;
+  font-family: "Roboto", serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 15px;
+  margin-top: 0px;
   text-align: center;
+  text-transform: none;
 }
 
 .bio {
+  color: #999999;
+  font-family: "Roboto", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  margin-bottom: 0px;
+  margin-top: 0px;
   text-align: center;
+  text-transform: none;
 }
 
 .info {
@@ -363,4 +381,5 @@ footer {
   line-height: 30px;
   padding-left: 0px;
   padding-right: 0px;
+  margin-top: 30px;
 }
