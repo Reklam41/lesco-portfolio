@@ -113,16 +113,77 @@ a.project-management {
   h1 {
     margin: auto;
     font-family: "Roboto", serif;
-    font-weight: 900;
     font-style: normal;
-    line-height: 24px;
+    font-size: 1.2rem;
     padding-bottom: 3px;
     padding-left: 0%;
     padding-right: 0%;
     padding-top: 0px;
     text-align: center;
-    text-transform: none;
-    width: 100%;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: gray;
+    text-align: center;
+  }
+}
+
+a.design {
+  text-decoration: none;
+  color: #191919;
+}
+
+.design {
+  height: 400px;
+  background-color: #f0f0f0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-row: 2/4;
+}
+
+.designs img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.design div.designs {
+  background-image: url("design/Ntinga\ Logo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.design:hover {
+  background-color: black;
+
+  div.designs {
+    opacity: 0.5;
+  }
+
+  div.designs-side {
+    background-color: black;
+    color: white;
+  }
+}
+
+.design div.designs-side {
+  display: grid;
+  place-items: center;
+
+  h1 {
+    margin: auto;
+    font-family: "Roboto", serif;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding-bottom: 3px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0px;
+    text-align: center;
   }
 
   p {
@@ -132,15 +193,6 @@ a.project-management {
   }
 }
 
-/*style="
-                background-image: url('paintings/349832617_725317699386032_7622584330549204390_n.jpg');
-                display: block;
-                height: 100%;
-                width: 100%;
-                background-size: cover;
-                background-position: center;
-              "*/
-
 .foto {
   background-color: yellow;
 }
@@ -149,11 +201,6 @@ a.project-management {
   background-size: cover;
   width: 100%;
   height: 100%;
-}
-
-.design {
-  background-color: rgb(71, 68, 62);
-  grid-row: 2/4;
 }
 
 .info .design img {
