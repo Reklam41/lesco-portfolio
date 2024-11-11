@@ -109,11 +109,23 @@ a.project-management {
 .project-management div.pm-side {
   display: grid;
   place-items: center;
-  font-weight: bold;
-  text-align: center;
 
   h1 {
     margin: 0;
+    color: #191919;
+    float: none;
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 24px;
+    margin: auto;
+    padding-bottom: 3px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0px;
+    text-align: center;
+    text-transform: none;
+    width: 100%;
   }
 
   p {
