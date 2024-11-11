@@ -241,17 +241,126 @@ a.foto {
   }
 }
 
-.paintings {
-  background-color: purple;
+a.painting {
+  text-decoration: none;
+  color: #191919;
+}
+
+.painting {
+  /*background-color: purple;*/
   height: 200px;
+  background-color: #f0f0f0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.painting div.paintings {
+  background-image: url("paintings/6-10.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.painting:hover {
+  background-color: black;
+
+  div.paintings {
+    opacity: 0.5;
+  }
+
+  div.paintings-side {
+    background-color: black;
+    color: white;
+  }
+}
+
+.painting div.paintings-side {
+  display: grid;
+  place-items: center;
+
+  h1 {
+    margin: auto;
+    font-family: "Roboto", serif;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding-bottom: 3px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: gray;
+  }
+}
+
+a.printing {
+  text-decoration: none;
+  color: #191919;
 }
 
 .printing {
-  background-color: pink;
+  /*background-color: purple;*/
   height: 200px;
+  background-color: #f0f0f0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.printing div.printings {
+  background-image: url("format-prints/chrome-hearts-vynil.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.printing:hover {
+  background-color: black;
+
+  div.printings {
+    opacity: 0.5;
+  }
+
+  div.printings-side {
+    background-color: black;
+    color: white;
+  }
+}
+
+.printing div.printings-side {
+  display: grid;
+  place-items: center;
+
+  h1 {
+    margin: auto;
+    font-family: "Roboto", serif;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding-bottom: 3px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: gray;
+    text-align: center;
+  }
 }
 
 footer {
-  background-color: orange;
+  /*background-color: orange;*/
   text-align: center;
+  color: #999999;
+  font-family: "Roboto", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
