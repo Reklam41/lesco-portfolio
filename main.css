@@ -76,24 +76,24 @@ nav a:hover {
   grid-template-columns: repeat(2, 1fr);
 }
 
-a.photography {
+a.project-management {
   text-decoration: none;
   color: black;
 }
 
-.photography {
+.project-management {
   height: 200px;
   background-color: #f0f0f0;
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
 
-.photography div.pm {
+.project-management div.pm {
   background-image: url("project-management/6-12.jpg");
   background-size: cover;
 }
 
-.photography:hover {
+.project-management:hover {
   background-color: black;
 
   div.pm {
@@ -103,6 +103,23 @@ a.photography {
   div.pm-side {
     background-color: black;
     color: white;
+  }
+}
+
+.project-management div.pm-side {
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+  text-align: center;
+
+  h1 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: gray;
   }
 }
 
