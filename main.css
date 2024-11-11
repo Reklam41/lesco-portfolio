@@ -143,18 +143,10 @@ a.design {
   grid-row: 2/4;
 }
 
-.designs img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .design div.designs {
   background-image: url("design/Ntinga\ Logo.jpg");
   background-size: cover;
   background-position: center;
-  height: 100%;
-  width: 100%;
 }
 
 .design:hover {
@@ -193,20 +185,60 @@ a.design {
   }
 }
 
+a.foto {
+  /*background-color: yellow;*/
+  text-decoration: none;
+  color: #191919;
+}
+
 .foto {
-  background-color: yellow;
-}
-
-.info .foto img {
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.info .design img {
-  background-size: cover;
   height: 200px;
-  background-image: url("design/Inyoni\ letter.png");
+  background-color: #f0f0f0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.foto div.fotos {
+  background-image: url("photography/6-14.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.foto:hover {
+  background-color: black;
+
+  div.fotos {
+    opacity: 0.5;
+  }
+
+  div.fotos-side {
+    background-color: black;
+    color: white;
+  }
+}
+
+.foto div.fotos-side {
+  display: grid;
+  place-items: center;
+
+  h1 {
+    margin: auto;
+    font-family: "Roboto", serif;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding-bottom: 3px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: gray;
+    text-align: center;
+  }
 }
 
 .paintings {
