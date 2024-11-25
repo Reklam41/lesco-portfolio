@@ -68,6 +68,13 @@ nav a:hover {
 .explanation {
   text-align: center;
 }
+.box:nth-child(1) {
+  background-color: orange;
+  background: url(project-management/6-8.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .box:nth-child(2) {
   background-color: red;
   background: url(project-management/6-12.jpg);
