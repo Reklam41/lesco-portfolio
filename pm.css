@@ -19,7 +19,6 @@ header {
   display: flex;
   border-bottom: 4px solid grey;
 }
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -71,6 +70,10 @@ nav a:hover {
 }
 .box:nth-child(2) {
   background-color: red;
+  background: url(project-management/6-12.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .container {
   display: grid;
@@ -81,6 +84,53 @@ nav a:hover {
   background-color: bisque;
   width: 330px;
   height: 253px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow: auto;
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  max-height: 90vh;
+}
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Make the box clickable */
+.box {
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.box:hover {
+  opacity: 0.8;
 }
 
 footer {
