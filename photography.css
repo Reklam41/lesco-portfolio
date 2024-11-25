@@ -82,6 +82,34 @@ nav a:hover {
   background-position: center;
   background-repeat: no-repeat;
 }
+.box:nth-child(3) {
+  background-color: red;
+  background: url(photography/7.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box:nth-child(4) {
+  background-color: red;
+  background: url(photography/IMG_1128.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box:nth-child(5) {
+  background-color: red;
+  background: url(photography/Thabang\ Makolo_NIM2023003\ -\ Slow\ Tv\ 5.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box:nth-child(6) {
+  background-color: red;
+  background: url(photography/IMG_1306.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

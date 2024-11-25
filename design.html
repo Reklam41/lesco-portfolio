@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="design.css" />
-    <title>design</title>
+    <title>project management</title>
   </head>
   <body>
     <main>
       <header>
+        <!-- Previous header content remains the same -->
         <nav>
           <div class="nav-links">
             <a href="index.html">work</a>
@@ -39,9 +40,49 @@
         <div class="explanation">
           <p>2016</p>
         </div>
+        <div class="container">
+          <div class="box" onclick="openModal(this)"></div>
+          <div class="box" onclick="openModal(this)"></div>
+          <div class="box" onclick="openModal(this)"></div>
+          <div class="box" onclick="openModal(this)"></div>
+          <div class="box" onclick="openModal(this)"></div>
+          <div class="box" onclick="openModal(this)"></div>
+        </div>
       </section>
-      <div class="container"></div>
+
+      <!-- Add modal structure -->
+      <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage" />
+      </div>
+
       <footer>Reklam &copy; Dasvidanya 2024</footer>
     </main>
+
+    <script>
+      function openModal(element) {
+        const modal = document.getElementById("imageModal");
+        const modalImg = document.getElementById("modalImage");
+        const computedStyle = window.getComputedStyle(element);
+        const backgroundImage = computedStyle.backgroundImage
+          .slice(4, -1)
+          .replace(/"/g, "");
+
+        modal.style.display = "block";
+        modalImg.src = backgroundImage;
+      }
+
+      function closeModal() {
+        document.getElementById("imageModal").style.display = "none";
+      }
+
+      // Close modal when clicking outside the image
+      window.onclick = function (event) {
+        const modal = document.getElementById("imageModal");
+        if (event.target === modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
   </body>
 </html>
