@@ -104,12 +104,12 @@ nav a:hover {
   background-repeat: no-repeat;
 }
 .box:nth-child(6) {
-  background-color: red;
-  background: url(design/Random\ harvest\ Final1.png);
-  background-size: cover;
-  background-position: center;
+  background: url(design/Inyoni\ letter.png);
+  background-size: 200%;
+  background-position: 0 0;
   background-repeat: no-repeat;
 }
+
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
