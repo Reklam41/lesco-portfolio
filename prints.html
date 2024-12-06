@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="design.css" />
+    <link rel="stylesheet" href="prints.css" />
     <title>Prints</title>
   </head>
   <body>
@@ -34,14 +34,55 @@
       </header>
       <section class="content">
         <div class="intro">
-          <h1>Format Print</h1>
+          <h1>Large Format Print</h1>
         </div>
         <div class="explanation">
-          <p>2016</p>
+          <p>
+            From Pull-up & X-banners to Vynil cutouts, water bottle stickers,
+            welcome boards for events, and more that are in line with Large
+            Format Prints
+          </p>
+        </div>
+        <div class="container">
+          <div class="box" onclick="openModal(this)">
+            <video
+              src="format-prints/WhatsApp Video 2024-11-27 at 02.41.38_173e5def.mp4"
+              autoplay
+              loop
+              playsinline
+              muted></video>
+          </div>
+          <div class="box" onclick="openModal(this)">
+            <video
+              src="format-prints/WhatsApp Video 2024-11-27 at 02.41.48_97be4255.mp4"
+              autoplay
+              loop
+              playsinline
+              muted></video>
+          </div>
         </div>
       </section>
-      <div class="container"></div>
+
       <footer>Reklam &copy; Dasvidanya 2024</footer>
     </main>
+
+    <script>
+      function openModal(element) {
+        const video = element.querySelector("video");
+        if (video.requestFullscreen) {
+          video.requestFullscreen();
+        } else if (video.mozRequestFullScreen) {
+          // Firefox
+          video.mozRequestFullScreen();
+        } else if (video.webkitRequestFullscreen) {
+          // Chrome, Safari and Opera
+          video.webkitRequestFullscreen();
+        } else if (video.msRequestFullscreen) {
+          // IE/Edge
+          video.msRequestFullscreen();
+        }
+        video.play();
+      }
+    </script>
   </body>
 </html>
