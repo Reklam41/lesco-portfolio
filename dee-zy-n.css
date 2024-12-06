@@ -70,81 +70,56 @@ nav a:hover {
 }
 
 .container {
+  background-color: blueviolet;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  justify-content: center;
-  place-items: center;
-}
-
-.box {
-  background-color: bisque;
-  width: 330px;
   height: 500px;
-
-  .box:nth-child(1) {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .box:nth-child(2) {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .box:nth-child(3) {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
 }
 
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1000;
-  padding-top: 50px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
-  overflow: auto;
+.logo {
+  background-color: #f0f0f0;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
 }
 
-.modal-content {
-  margin: auto;
-  display: block;
-  max-width: 90%;
-  max-height: 90vh;
-}
-
-.close {
-  position: absolute;
-  right: 35px;
-  top: 15px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
+a.logo {
   text-decoration: none;
-  cursor: pointer;
+  color: #191919;
 }
 
-/* Make the box clickable */
-.box {
-  cursor: pointer;
-  transition: opacity 0.3s ease;
+.logo div.emblem {
+  background-image: url("project-management/6-12.jpg");
+  background-size: cover;
 }
 
-.box:hover {
-  opacity: 0.8;
+.logo:hover {
+  background-color: black;
+  div.emblem {
+    opacity: 0.5;
+  }
+  div.logo-bottom {
+    background-color: black;
+    color: white;
+  }
+}
+
+.logo div.logo-bottom {
+  display: grid;
+  place-items: center;
+
+  h1 {
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+       sans-serif;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding-bottom: 3px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0px;
+    text-align: center;
+  }
 }
 
 footer {
