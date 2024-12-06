@@ -1,3 +1,10 @@
+@import url("https://fonts.cdnfonts.com/css/serotiva");
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",  sans-serif;
+}
+
 body {
   background-color: #fff;
   margin: 0;
@@ -90,6 +97,27 @@ nav a:hover {
 .box:nth-child(2) {
   background-color: red;
   background: url(project-management/6-12.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box:nth-child(3) {
+  background-color: red;
+  background: url(project-management/WhatsApp\ Image\ 2024-11-27\ at\ 02.36.51_38339ad1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box:nth-child(4) {
+  background-color: red;
+  background: url(project-management/WhatsApp\ Image\ 2024-11-27\ at\ 02.36.51_711a378a.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box:nth-child(5) {
+  background-color: red;
+  background: url(project-management/WhatsApp\ Image\ 2024-11-27\ at\ 02.36.52_9c10bb8b.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
