@@ -70,7 +70,7 @@ nav a:hover {
 }
 
 .container {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   height: 500px;
