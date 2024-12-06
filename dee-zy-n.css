@@ -74,6 +74,8 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   height: 500px;
+  grid-gap: 10px;
+  margin-top: 100px;
 }
 
 .logo {
@@ -125,4 +127,116 @@ a.logo {
 footer {
   /* background-color: orange; */
   text-align: center;
+}
+
+.editorial {
+  background-color: #f0f0f0;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+
+a.editorial {
+  text-decoration: none;
+  color: #191919;
+}
+
+.editorial div.designs {
+  background-image: url("project-management/6-12.jpg");
+  background-size: cover;
+}
+
+.editorial:hover {
+  background-color: black;
+  div.designs {
+    opacity: 0.5;
+  }
+  div.editorial-bottom {
+    background-color: black;
+    color: white;
+  }
+}
+
+.editorial div.editorial-bottom {
+  display: grid;
+  place-items: center;
+
+  h1 {
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+       sans-serif;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding-bottom: 3px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0px;
+    text-align: center;
+  }
+}
+
+footer {
+  /* background-color: orange; */
+  text-align: center;
+}
+
+.motion {
+  background-color: #f0f0f0;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+
+a.motion {
+  text-decoration: none;
+  color: #191919;
+}
+
+.motion div.graphic {
+  background-image: url("project-management/6-12.jpg");
+  background-size: cover;
+}
+
+.motion:hover {
+  background-color: black;
+  div.designs {
+    opacity: 0.5;
+  }
+  div.motion-bottom {
+    background-color: black;
+    color: white;
+  }
+}
+
+.motion div.motion-bottom {
+  display: grid;
+  place-items: center;
+
+  h1 {
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+       sans-serif;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding-bottom: 3px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0px;
+    text-align: center;
+  }
+}
+
+footer {
+  /*background-color: orange;*/
+  text-align: center;
+  color: #999999;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",  sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 30px;
 }
