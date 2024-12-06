@@ -1,0 +1,114 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  font-size: 1.4rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",  sans-serif;
+}
+
+main {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+header {
+  /* background-color: blue; */
+  display: flex;
+  border-bottom: 4px solid grey;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: blue;
+  font-weight: bold;
+}
+
+.name {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.name a {
+  text-decoration: none;
+  color: black;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social img:hover {
+  transform: scale(1.2);
+  color: grey;
+}
+
+.content {
+  /* background-color: green; */
+  flex-grow: 1;
+}
+
+.intro {
+  color: #191919;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",  sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 15px;
+  margin-top: 0px;
+  text-align: center;
+  text-transform: none;
+}
+.explanation {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 20px;
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer; /* Makes it look clickable */
+}
+
+.box video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}

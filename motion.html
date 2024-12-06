@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="motion.css" />
+    <title>Motion Graphic</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav>
+          <div class="nav-links">
+            <a href="index.html">work</a>
+            <a href="about.html">about/contact</a>
+          </div>
+        </nav>
+        <div class="name">
+          <a href="index.html">
+            <h1>Thabang Makolo.</h1>
+          </a>
+        </div>
+        <div class="social">
+          <a href="https://www.facebook.com/Lescomart"
+            ><img src="images/facebook-logo.svg" alt="facebook-logo"
+          /></a>
+          <a href="https://www.instagram.com/lesco.m_art/"
+            ><img src="images/instagram-logo.svg" alt="instagram logo"
+          /></a>
+          <a href="https://github.com/Lescobar-06"
+            ><img src="images/github-logo.svg" alt="github logo"
+          /></a>
+        </div>
+      </header>
+      <section class="content">
+        <div class="intro">
+          <h1>Motion Graphics</h1>
+        </div>
+        <div class="explanation">
+          <p>2016</p>
+        </div>
+        <div class="container">
+          <div class="box" onclick="openModal(this)">
+            <video
+              src="design/motion/Ntinga_animation.mp4"
+              autoplay
+              loop
+              playsinline
+              muted></video>
+          </div>
+          <div class="box" onclick="openModal(this)">
+            <video
+              src="design/motion/motion.mp4"
+              autoplay
+              loop
+              playsinline
+              muted></video>
+          </div>
+        </div>
+      </section>
+
+      <footer>Reklam &copy; Dasvidanya 2024</footer>
+    </main>
+
+    <script>
+      function openModal(element) {
+        const video = element.querySelector("video");
+        if (video.requestFullscreen) {
+          video.requestFullscreen();
+        } else if (video.mozRequestFullScreen) {
+          // Firefox
+          video.mozRequestFullScreen();
+        } else if (video.webkitRequestFullscreen) {
+          // Chrome, Safari and Opera
+          video.webkitRequestFullscreen();
+        } else if (video.msRequestFullscreen) {
+          // IE/Edge
+          video.msRequestFullscreen();
+        }
+        video.play();
+      }
+    </script>
+  </body>
+</html>
