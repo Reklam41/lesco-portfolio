@@ -110,6 +110,42 @@ nav a:hover {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.box:nth-child(7) {
+  background: url(photography/cricifix.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box:nth-child(8) {
+  background: url(photography/smoke.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box:nth-child(9) {
+  background: url(photography/horses.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box:nth-child(10) {
+  background: url(photography/buring\ fire.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box:nth-child(11) {
+  background: url(photography/closeshort.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
