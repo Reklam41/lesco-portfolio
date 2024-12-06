@@ -2,7 +2,8 @@ body {
   background-color: #fff;
   margin: 0;
   font-size: 1.4rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",  sans-serif;
 }
 
 main {
@@ -64,7 +65,8 @@ nav a:hover {
 
 .intro {
   color: #191919;
-  font-family: "Roboto", serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",  sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -77,7 +79,8 @@ nav a:hover {
 
 .bio {
   color: #999999;
-  font-family: "Roboto", serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",  sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: normal;
@@ -130,7 +133,9 @@ a.project-management {
 
   h1 {
     margin: auto;
-    font-family: "Roboto", serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+       sans-serif;
     font-style: normal;
     font-size: 1.2rem;
     padding-bottom: 3px;
@@ -186,7 +191,9 @@ a.design {
 
   h1 {
     margin: auto;
-    font-family: "Roboto", serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+       sans-serif;
     font-style: normal;
     font-size: 1.2rem;
     padding-bottom: 3px;
@@ -241,7 +248,9 @@ a.foto {
 
   h1 {
     margin: auto;
-    font-family: "Roboto", serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+       sans-serif;
     font-style: normal;
     font-size: 1.2rem;
     padding-bottom: 3px;
@@ -297,7 +306,9 @@ a.painting {
 
   h1 {
     margin: auto;
-    font-family: "Roboto", serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+       sans-serif;
     font-style: normal;
     font-size: 1.2rem;
     padding-bottom: 3px;
@@ -352,7 +363,9 @@ a.printing {
 
   h1 {
     margin: auto;
-    font-family: "Roboto", serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+       sans-serif;
     font-style: normal;
     font-size: 1.2rem;
     padding-bottom: 3px;
@@ -374,7 +387,8 @@ footer {
   /*background-color: orange;*/
   text-align: center;
   color: #999999;
-  font-family: "Roboto", serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",  sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
